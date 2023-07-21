@@ -72,19 +72,19 @@ onMounted(() => {
         [
           {
             name: '媒体问询',
-            email: 'aerowangue@126.com'
+            email: 'infra@yewscloud.com'
           },
           {
             name: '招聘相关',
-            email: 'aerowangue@126.com'
+            email: 'infra@yewscloud.com'
           },
           {
             name: '商务合作',
-            email: 'aerowangue@126.com'
+            email: 'infra@yewscloud.com'
           },
           {
             name: '广告相关',
-            email: 'aerowangue@126.com'
+            email: 'infra@yewscloud.com'
 
           }]
   focus_icon.value =
