@@ -4,7 +4,7 @@
             <div class="servie-block">
                 <div class="block-line"></div>
                 <p class="service-info-title">我们的服务</p>
-                <p class="service-info-subtitle">我们已定制多套解决方案，助您轻松跨入“互联网+”时代</p>
+                <p class="service-info-subtitle">我们已定制多套解决方案，助您轻松跨入“互联网+AWS云”时代</p>
                 <div class="service-list">
                     <div class="service-title" v-for="(item, index) in serviceList" :key="index">
                         <div class="is-hover-shadow">
@@ -38,7 +38,7 @@
             <div class="service-case">
                 <div class="block-line"></div>
                 <p class="case-title">我们的服务</p>
-                <p class="case-subtitle">我们已定制多套解决方案，助您轻松跨入“互联网+”时代</p>
+                <p class="case-subtitle">我们已定制多套解决方案，助您轻松跨入“AWS云”时代</p>
                 <div class="case-list">
                     <div class="case-info" v-for="(item, index) in caseList" :key="index">
                         <el-card :body-style="{ padding: '0px' }" shadow="hover">
@@ -77,7 +77,7 @@ const serviceList = ref<ServiceItem[]>([])
 const serviceIdeaInfo = ref<InfoData>({
   ideaTitle: '服务理念',
   ideaSubTitle: 'SERVICE IDEA',
-  ideaDesc: '专注品牌事业十余年，是一家兼具国际视野、创新动力、全方位跨平台的品牌咨询与设计整合服务公司。公司业务涉及大数据、智能多媒体、物联网。'
+  ideaDesc: '我们致力于以客户为中心，为您提供卓越的服务体验。我们相信技术创新是实现业务成功和持续发展的关键，因此我们将不遗余力地驱动创新，确保您能够始终处于竞争的前沿。'
 })
 const serviceIdeaImg = ref<ImgItem[]>([])
 const caseList = ref<CaseItem[]>([])
@@ -85,15 +85,15 @@ const percentage = ref('50')
 onBeforeMount(() => {
   serviceList.value = [
     {
-      description: '大数据',
+      description: '数据迁移',
       path: require('../assets/img/index/bigData.webp')
     },
     {
-      description: '智能多媒体',
+      description: '云解决方案',
       path: require('../assets/img/index/media.webp')
     },
     {
-      description: '互联网',
+      description: '云科技',
       path: require('../assets/img/index/internet.webp')
     },
     {
@@ -113,19 +113,19 @@ onBeforeMount(() => {
   ]
   caseList.value = [
     {
-      desc: '私家智能定制APP',
+      desc: 'AWS云解决方案技术支持',
       path: require('../assets/img/index/app1.jpg')
     },
     {
-      desc: '公司业绩统计管理系统',
+      desc: '云服务成本优化',
       path: require('../assets/img/index/system1.jpg')
     },
     {
-      desc: '私家智能定制APP',
+      desc: '企业运维支持',
       path: require('../assets/img/index/app1.jpg')
     },
     {
-      desc: '公司业绩统计管理系统',
+      desc: '账单代付系统',
       path: require('../assets/img/index/system2.jpg')
     }
   ]

@@ -2,8 +2,8 @@
     <div class="overlay">
         <div class="overlay-content">
             <div class="slogan sofiaBold">
-                <div class="slogan-title">互联网+时代</div>
-                <div class="slogan-subtitle">BELIEVE IN YOURSELF</div>
+                <div class="slogan-title">互联网+云时代</div>
+                <div class="slogan-subtitle">YEWSCLOUD INFORMATION</div>
             </div>
         </div>
     </div>
